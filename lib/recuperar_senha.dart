@@ -5,6 +5,6 @@ class RecuperarSenha extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text("Recuperar senha");
+    return const Text("Recuperar Senha");
   }
 }
