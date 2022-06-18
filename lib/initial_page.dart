@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_flutter/random_words.dart';
 
 class InitialPage extends StatefulWidget {
   const InitialPage({Key? key}) : super(key: key);
@@ -12,11 +13,11 @@ class _InitialPageState extends State<InitialPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Página Inicial"),
+        title: const Text("Startup Name Generator"),
         centerTitle: true,
       ),
       body: const Center(
-        child: Text("olá mundo"),
+        child: RandomWords(),
       ),
     );
   }
