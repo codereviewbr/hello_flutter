@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Hello Flutter",
+      title: "Startup Name Generator",
       initialRoute: "/",
       routes: {
         "/": (context) => const InitialPage(),
